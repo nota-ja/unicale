@@ -1,0 +1,53 @@
+table.inputbar {
+	margin: 0 auto 0 auto;
+	border: none;
+	display: none;
+}
+.navi {
+	display: none;
+}
+h1{
+	font-size : 100%;
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+.br1{
+	line-height: 0.5em;
+}
+table.calendar1 tr td{
+	font-size: 80%;
+	color: #000000;
+	vertical-align: top;
+	border: solid 1px #cccccc;
+	margin: 0; padding: 0;
+}
+.imgicon{
+	display: none;
+}
+
+.footer{
+	display: none;
+}
+.footer2{
+	display: none;
+}
+
+h1{
+	display: inline;
+	text-align: left;
+	float: left;
+	border: none;
+	background-color: #ffffff;
+}
+.forprint{
+	display: block;
+	font-size: 80%;
+}
+.keiji, .alert, .hanrei, .monthNavi{
+	display: none;
+}

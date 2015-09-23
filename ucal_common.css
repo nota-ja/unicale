@@ -1,0 +1,480 @@
+body{
+	width: 100%;
+	text-align: left;
+	margin: 0;
+	padding: 0;
+	background-color: #f9f9f4;
+}
+
+a{text-decoration: none;}
+a:hover{text-decoration: underline;}
+
+.normal{font-size: 80%; color: #333333;}
+.normalgray{font-size: 80%; color: #999999;}
+.holiday{font-size: 75%; color: #D15252; margin: 6px; line-height: 2em;}
+.size1{font-size: 80%; color: #666666;}
+.imgicon{margin: 0px 1px 0px 0px;}
+.keiji{
+	color: #666666;
+	font-size: 80%;
+	width: 700px;
+	text-align: left;
+	margin: 0 auto 0 auto;
+	padding: 5px;
+	background-color: #fefaef;
+}
+.keiji a{
+	color: #666666;
+	text-decoration: none;
+}
+
+.res{
+	color: #666666;
+	font-size: 90%;
+	text-align: left;
+	margin: 0;
+	padding: 0 0.5em 0 0.5em;
+	background-color: #EDE4A7;
+}
+h1{
+	border-bottom; 1px solid #666666;
+	font-weight: bold;
+	font-size: 120%;
+	color: #666666;
+	margin: 0.5em;
+	padding: 0.5em;
+}
+
+.headerh1{
+	color: #666666;
+	text-decoration: none;
+	text-shadow: white 0px 1px 0px;
+	text-shadow: #ffffff 1px 1px 0px;
+	font-family: 'メイリオ', Meiryo, 'Lucida Grande', Verdana, 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', Osaka, 'ＭＳ Ｐゴシック', sans-serif;
+}
+.headerh1:hover{
+	color: #666666;
+	text-decoration: underline;
+}
+
+h2{
+	font-weight: normal;
+	font-size: 60%;
+	color: #666666;
+	margin: 0.5em;
+}
+
+h2#title{
+	font-weight: normal;
+	font-size: 80%;
+	color: #666666;
+	margin: 0.5em;
+	padding: 0.5em;
+	width: 700px;
+	text-align: left;
+	margin: 1em auto 1em auto;
+	border-left: 3px solid #f2eeee;
+	text-shadow: white 0px 1px 0px;
+}
+
+
+#pageimage{text-align: center; width: 100%; margin: 0 0 0 auto;}
+#header1{
+	margin: 0 auto 0 auto;
+	width: 800px;
+	text-align: center;
+	border-top: 1px #eeeeee solid;
+	border-bottom: 1px #dddddd solid;
+}
+#header2{
+	margin: 0 auto 0 auto;
+	width: 800px;
+	text-align: left;
+	background: url(image/bkgrd02.jpg) 50% 50% repeat-x;
+	border-top: 1px #eeeeee solid;
+	border-bottom: 1px #dddddd solid;
+
+}
+
+#header3{
+	margin: 0 auto 1em auto;
+	padding: 0.2em;
+	width: 800px;
+	text-align: right;
+	background: url(image/bkgrd02.jpg) 50% 50% repeat-x;
+	border-top: 1px #eeeeee solid;
+	border-bottom: 1px #dddddd solid;
+
+}
+
+
+.hanrei{
+	text-align: center;
+	vertical-align: middle;
+	margin: auto;
+	padding: 0.5em 0.5em 0.5em 0.5em;
+	font-size: 90%;
+	color: #666666;
+	border-top: 1px #eeeeee solid;
+	border-bottom: 1px #dddddd solid;
+	height: auto;
+}
+.forprint{display: none;}
+
+table.inputbar {
+	margin: 0.5em auto 0.5em auto;
+	text-align: center;
+	border: none;
+}
+
+td.dateinput{
+	font-size: 80%;
+	color: #666666;
+	background-color: #ebebeb;
+	padding: 6px;
+}
+
+table.calendar1 {
+	margin: 0 auto 0 auto;
+	border: solid 1px #bbbbbb;
+	border-collapse: collapse;
+}
+table.calendar1 tr td{
+	font-size: 100%;
+	color: #333333;
+	height: 5em;
+	vertical-align: top;
+	border: solid 1px #cccccc;
+	margin: 0; padding: 0;
+	line-height: 1em;
+	background-color: #fdfcfc;
+}
+
+div.datenormal{
+	vertical-align: middle; 
+	text-align: center; 
+	font-size: 75%; 
+	color: #ff3333; 
+	background-color: #FBF9EC; 
+	font-weight: bold; 
+	padding: 0.3em;
+	background: url(image/normalday.jpg) 0% 0% repeat-x;
+	text-shadow: white 0px 1px 0px;
+	font-family: 'メイリオ', Meiryo, 'Lucida Grande', Verdana, 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', Osaka, 'ＭＳ Ｐゴシック', sans-serif;
+
+}
+div.datesat{
+	text-align: center;
+	vertical-align: middle;
+	font-size: 75%; 
+	color: #333333; 
+	background-color: #E3ECF2;
+	font-weight: bold; 
+	padding: 0.3em;
+	background: url(image/saturday.jpg) 0% 0% repeat-x;
+	text-shadow: white 0px 1px 0px;
+	font-family: 'メイリオ', Meiryo, 'Lucida Grande', Verdana, 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', Osaka, 'ＭＳ Ｐゴシック', sans-serif;
+}
+div.datesun{
+	text-align: center; 
+	vertical-align: middle;
+	font-size: 75%;
+	color: #999999;
+	background-color: #FFE8E8;
+	font-weight: bold;
+	padding: 0.3em;
+	background: url(image/sunday.jpg) 0% 0% repeat-x;
+	text-shadow: white 0px 1px 0px;
+	font-family: 'メイリオ', Meiryo, 'Lucida Grande', Verdana, 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', Osaka, 'ＭＳ Ｐゴシック', sans-serif;
+}
+
+div.datenormal_2{	
+	vertical-align: middle; 
+	line-height: 1em; 
+	text-align: center; 
+	font-size: 90%; 
+	color: #333333; 
+	background-color: #E8FFD2;
+	font-weight: bold; 
+	margin: 0;
+	padding: 0.3em;
+	background: url(image/sunday.jpg) 0% 0% repeat-x;
+	text-shadow: white 0px 1px 0px;
+}
+
+div.datesat_2{
+	line-height: 1em; 
+	text-align: center; 
+	font-size: 90%; 
+	color: #333333; 
+	background-color: #D3E7ED;
+	font-weight: bold; 
+	margin: 0px 0px 0px 0px ;
+	padding: 3px; 
+	height: 1em;
+}
+div.datesun_2{
+	line-height: 1em;
+	text-align: center; 
+	font-size: 90%; 
+	color: #333333; 
+	background-color: #FFDBCF;
+	font-weight: bold; 
+	margin: 0; padding: 3px; 
+	height: 1em;
+}
+
+div.datenormal a,
+div.datesat a,
+div.datesun a,
+div.datenormal_2 a,
+div.datesat_2 a,
+div.datesun_2 a{
+	color: #666666; 
+}
+
+.c1{
+	font-size: 85%;
+	color: #444444;
+	margin: 0;
+	padding: 1px;
+	display: block;
+}
+
+.c1:visited{
+	font-size: 85%;
+	color: #554444;
+	margin: 0;
+	padding: 1px;
+	display: block;
+}
+.c1 a{text-decoration: none; }
+.c1 a:hover{text-decoration: underline;}
+
+
+.c2{
+	font-size: 85%;
+	color: #444444;
+	margin: 0;
+	padding: 1px;
+	display: inline;
+}
+
+.br1{line-height: 0.5em; margin: 0 0 0 0;}
+.clear{clear: both;}
+
+
+.inputzone{
+	width: 700px;
+}
+.inputzone textarea{
+	display: inline;
+}
+.inputzoneinput{
+	float: right;
+}
+
+.tdheader1{
+	vertical-align:bottom;
+	text-align: center; 
+	font-size: 50%; 
+	color: #333333; 
+	background-color: #eeeeee; 
+	margin: 3px; padding: 3px; 
+}
+.table1{
+	margin: 0 auto 0 auto;
+}
+
+span.marker1{background-color: #FBFDD0;}
+.alert{color: #FF0000; font-weight: bold;}
+
+.footer{
+	margin: 0.5em auto 0.5em auto;
+	color: #666666;
+	font-size: 80%;
+}
+.footer a{
+	text-decoration: none;
+}
+.footer2{
+	margin: 0 auto 0 auto;
+	padding: 0;
+	color: #666666;
+	font-size: 70%;
+	width: 700px;
+	height: 30px;
+	text-align: right;
+	border-top: 1px solid #cccccc;
+	background-repeat: no-repeat;
+	background-position: bottom left;
+}
+.footerlogo{
+	text-align: left;
+	padding: 10px 100px 10px 10px;
+	float: left;
+}
+
+
+.footer2 a{
+	text-decoration: none;
+	color: #666666;
+}
+.footer2 a:hover{
+	text-decoration: underline;
+}
+
+.dummy
+{padding: 0;}
+
+.syukei2{height: 1em;}
+.numeric{
+	font-size: 80%;
+	text-align: right;
+	vertical-align: middle;
+	color: #333333;
+	padding: 2px;
+	width: 100%;
+}
+
+.disable{
+	color: #999999;
+}
+
+.week{
+	font-size: 75%;
+	font-weight: normal;
+}
+
+table.calendar1 tr td.weektd_0{
+	font-size: 100%;
+	color: #ffffff;
+	height: 1.5em;
+	vertical-align: middle;
+	border: solid 1px #cccccc;
+	margin: 0; padding: 0;
+	line-height: 1em;
+	text-align: center;
+	background-color: #FFB9B9;
+	background: url(image/h_sunday.jpg) 0% 0% repeat-x;
+}
+
+table.calendar1 tr td.weektd_1,
+table.calendar1 tr td.weektd_2,
+table.calendar1 tr td.weektd_3,
+table.calendar1 tr td.weektd_4,
+table.calendar1 tr td.weektd_5{
+	font-size: 100%;
+	color: #6A6A6A;
+	height: 1.5em;
+	vertical-align: middle;
+	border: solid 1px #cccccc;
+	margin: 0; padding: 0;
+	line-height: 1em;
+	text-align: center;
+	background-color: #F7E2A4;
+	background: url(image/h_normalday2.jpg) 50% 50% repeat-x;
+}
+
+table.calendar1 tr td.weektd_6{
+	font-size: 100%;
+	color: #ffffff;
+	height: 1.5em;
+	vertical-align: middle;
+	border: solid 1px #cccccc;
+	margin: 0; padding: 0;
+	line-height: 1em;
+	text-align: center;
+	background-color: #6FC0D5;
+	background: url(image/h_saturday.jpg) 0% 0% repeat-x;
+}
+.today{
+	background-color: #fa7465;
+	line-height: 3px;
+}
+
+.currentYear{
+	background-color: #FCEAB4;
+	padding: 2px;
+	width: 400px;
+}
+
+.silent{
+	font-size: 80%;
+	color: #999999;
+	line-height: 1em;
+}
+
+.monthNavi a{
+	font-size: 80%;
+	color: #78a8be;
+	text-decoration: none;
+}
+.monthNavi a .currentMonth{
+	color: #2f8ae6;
+	text-decoration: none;
+	background-color: #FCEAB4;
+}
+
+.monthNavi a:hover{
+	color: #78a8be;
+	text-decoration: underline;
+	
+}
+.navi{
+	margin:0.5em auto 0.5em auto;
+}
+
+.ondayevent{padding: 2px; margin: 2px;}
+
+#member dt{float: left; font-size: 90%;background-color: #00ffff; margin: 5px; padding: 10px; width: 10em;}
+#member dd{text-align:left; padding-left: 15em; border: 1px solid #ff0000; font-size: 90%; background-color: #00ff00; margin: 5px; padding: 10px;}
+.config{font-size: 80%;}
+.config{
+	font-size: 80%;
+	margin: 0 auto 0 auto;
+	border: solid 1px #666666;
+	border-collapse: collapse;
+}
+
+.config td{
+	border: solid 1px #999999;
+	padding: 0.5em;
+}
+
+.configtitle{
+	border: solid 1px #999999;
+	padding: 0.5em;
+	background-color: #f0ece6;
+	text-align: left;
+	font-size: 90%;
+	font-weight: normal;
+}
+/*
+.config table tr th{
+	text-align: left;
+	font-size: 85%;
+}
+*/
+#member_table{
+	font-size: 100%;
+	margin: 0 auto 0 auto;
+	border: solid 1px #666666;
+	border-collapse: collapse;
+}
+#member_table thead th{font-size: 90%;}
+#member_table tr td {font-size: 99%;}
+
+.normal{
+	font-size: 90%;
+	color: #666666;
+	text-align: left;
+}
+
+.member{
+	font-size: 90%;
+}
+
+.navibutton{
+	font-size: 80%;
+}

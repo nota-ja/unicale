@@ -1,0 +1,7 @@
+id,key,dispid,memname1,memname2,memname3,color,icon,f_small,f_disp,bikou,opt1,opt2,opt3
+6
+1##SEP##mem1##SEP##1##SEP##織田信長##SEP##織田##SEP##織##SEP##ff3366##SEP##none##SEP##false##SEP##true##SEP####SEP####SEP####SEP##
+2##SEP##mem2##SEP##2##SEP##上杉鷹山##SEP##上杉##SEP##上##SEP##ff9900##SEP##none##SEP##false##SEP##true##SEP####SEP####SEP####SEP##
+3##SEP##mem3##SEP##3##SEP##黒田官兵衛##SEP##黒田##SEP##黒##SEP##ffcc33##SEP##none##SEP##false##SEP##true##SEP####SEP####SEP####SEP##
+4##SEP##mem4##SEP##4##SEP##聖徳太子##SEP##聖徳##SEP##聖##SEP##99cc00##SEP##none##SEP##false##SEP##true##SEP####SEP####SEP####SEP##
+5##SEP##mem5##SEP##5##SEP##山中鹿介##SEP##山中##SEP##山##SEP##3399ff##SEP##none##SEP##false##SEP##true##SEP####SEP####SEP####SEP##

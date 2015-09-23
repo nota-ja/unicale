@@ -1,0 +1,4 @@
+id,startdate,datemode,vaguedate_f,enddate,starttime,endtime,title,detail,member,place,genre,silent,level,usehour,modified,opt1,opt2,opt3
+16
+2##SEP##20110123##SEP####SEP##1##SEP####SEP##ALL2##SEP####SEP##UNICALE2.00リリース14##SEP##20141221##SEP####SEP##1##SEP####SEP##ALL1##SEP####SEP##UNICALE2.03リリース##SEP####SEP####SEP####SEP##1##SEP##0##SEP####SEP####SEP##20141221091415##SEP####SEP####SEP##
+15##SEP##20141221##SEP####SEP##1##SEP####SEP##ALL1##SEP####SEP##UNICALE2.03リリース##SEP####SEP####SEP####SEP##1##SEP##0##SEP####SEP####SEP##20141221091515##SEP####SEP####SEP##

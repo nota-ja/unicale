@@ -1,0 +1,12 @@
+id,confkey,confvalue,comment
+10
+1##SEP##calname##SEP##UNICALE2##SEP##Calendar Name
+2##SEP##keiji_mode##SEP##true##SEP##掲示板モード有効の時true
+3##SEP##startyear##SEP##2014##SEP##
+4##SEP##endyear##SEP##2018##SEP##
+5##SEP##disp_genre_flat##SEP####SEP##
+6##SEP##custom_link##SEP##true##SEP##
+7##SEP##custom_link_uri##SEP##http://www.yahoo.co.jp/##SEP##
+8##SEP##monorsun##SEP##0##SEP##
+9##SEP##monthnavistartmonth##SEP##4##SEP##月移動ナビゲーションの開始月
+10##SEP##event_calendar_mode##SEP####SEP##イベントカレンダーモード

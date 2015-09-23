@@ -1,0 +1,13 @@
+id,key,dispid,genrename,f_disp,f_calc,color,opt1,opt2,opt3
+12
+1##SEP##genre1##SEP##1##SEP##プロジェクトＡ##SEP##1##SEP##1##SEP##FFCECE##SEP####SEP##
+2##SEP##genre2##SEP##2##SEP##プロジェクトＢ##SEP##1##SEP##0##SEP##FEFCB4##SEP####SEP##
+3##SEP##genre3##SEP##3##SEP##プロジェクトＣ##SEP##1##SEP##0##SEP##CDF2A4##SEP####SEP##
+4##SEP##genre4##SEP##4##SEP##内部作業##SEP##1##SEP##1##SEP##A0EBDC##SEP####SEP##
+5##SEP##genre5##SEP##5##SEP##間接作業##SEP##0##SEP##1##SEP##D9E4F7##SEP####SEP##
+6##SEP##genre6##SEP##6##SEP##ジャンル6##SEP##0##SEP##0##SEP##FBD5F9##SEP####SEP##
+7##SEP##genre7##SEP##7##SEP##ジャンル7##SEP##0##SEP##1##SEP##EEEBD0##SEP####SEP##
+8##SEP##genre8##SEP##8##SEP##ジャンル8##SEP##0##SEP##0##SEP##B3F7C7##SEP####SEP##
+9##SEP##genre9##SEP##9##SEP##ジャンル9##SEP##0##SEP##1##SEP##FFCACA##SEP####SEP##
+10##SEP##genre10##SEP##10##SEP##ジャンル10##SEP##1##SEP##0##SEP##F4AED1##SEP####SEP##
+11##SEP##genre11##SEP##11##SEP##ジャンル11##SEP##1##SEP##0##SEP##E0F3AF##SEP####SEP##
