@@ -34,7 +34,7 @@ function action( &$c )
 			$account = array('username' => $c->data['uni']['username'],
 							 'password' => $c->data['uni']['password']
 							);
-			$rtn = $c->auth->login($account,&$c);
+			$rtn = $c->auth->login($account,$c);
 			if($rtn){
 				$msg.="ログイン成功しました。";
 			}else{
@@ -65,7 +65,7 @@ function action( &$c )
 			$c->set( "tabselected", "{ selected: 1 }" );
 		}
 	}
-	if($c->auth->islogin(&$c)){
+	if($c->auth->islogin($c)){
 		$c->redirect( "./u_admin.php" );
 	}else{
 		$msg .= "ログインしていません。<br>";

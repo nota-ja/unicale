@@ -17,7 +17,7 @@ function action( &$c )
 
 
 	$isLogin = false;
-	if($c->auth->islogin(&$c)){
+	if($c->auth->islogin($c)){
 		$loginName = $c->sanitize->html($_SESSION['username']);
 		$isLogin = true;
 	}else{

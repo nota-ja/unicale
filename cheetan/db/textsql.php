@@ -319,7 +319,7 @@ class CTextDB
 			}
 			if( $this->cmpkey && array_key_exists( $this->cmpkey, $records[0] ) )
 			{
-				usort( $records, array( &$this, '_cmpfunc' ) );
+				usort( $records, array( $this, '_cmpfunc' ) );
 			}
 			break;
 		}
