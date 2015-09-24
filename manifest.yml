@@ -1,0 +1,8 @@
+---
+applications:
+  - name: unicale
+    memory: 256M
+    env:
+      SSH_HOST: nota-ja@192.168.15.91
+      SSH_PATH: /home/nota-ja/sshfs/31226/7675
+      SSH_KEY_NAME: id_rsa
